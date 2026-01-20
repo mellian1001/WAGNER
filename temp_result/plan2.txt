@@ -1,2 +1,0 @@
-#y_generalized_test_designed
-['collect wood', 'make wood_pickaxe', 'make wood_sword', 'collect stone', 'collect coal', 'make stone_pickaxe', 'make stone_sword', 'collect iron', 'make iron_pickaxe', 'make iron_sword']

@@ -1,1 +1,0 @@
-['make_wood_pickaxe', 'collect_stone', 'make_stone_pickaxe', 'mine_coal', 'place_furnace', 'mine_iron']
