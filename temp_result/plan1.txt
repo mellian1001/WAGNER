@@ -1,0 +1,1 @@
+['collect wood', 'make wood_pickaxe', 'collect stone', 'make stone_pickaxe', 'collect iron']

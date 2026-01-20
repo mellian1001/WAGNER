@@ -1,0 +1,2 @@
+#y_generalized_test_designed
+['wood', 'wood_pickaxe', 'wood_sword', 'stone', 'coal', 'stone_pickaxe', 'stone_sword', 'iron', 'iron_pickaxe', 'iron_sword']

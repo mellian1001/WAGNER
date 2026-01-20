@@ -1,0 +1,9 @@
+{
+    "model1": {"name": "wood", "description": "collect wood", "requirement": []},
+    "model2": {"name": "wood_pickaxe", "description": "craft a wood pickaxe", "requirement": [["wood", 1]]},
+    "model3": {"name": "stone", "description": "collect a stone", "requirement": [["wood_pickaxe", 1]]},
+    "model4": {"name": "stone_pickaxe", "description": "craft a stone pickaxe", "requirement": [["wood", 1], ["stone", 1], ["wood_pickaxe", 1]]},
+    "model5": {"name": "iron", "description": "collect iron", "requirement": [["wood_pickaxe", 1], ["stone_pickaxe", 1]]},
+    "model6": {"name": "coal", "description": "collect coal", "requirement": [["wood_pickaxe", 1]]},
+    "model7": {"name": "iron_pickaxe", "description": "craft an iron pickaxe,place table,place furnace,move to the table and furnace that are nearby", "requirement": [["wood", 3], ["stone", 4], ["coal", 1], ["iron", 1]]}
+}

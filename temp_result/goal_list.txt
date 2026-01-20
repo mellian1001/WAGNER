@@ -1,0 +1,1 @@
+['wood_pickaxe', 'stone', 'stone_pickaxe', 'coal', 'iron']
