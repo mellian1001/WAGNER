@@ -66,7 +66,7 @@ Directory containing pre-trained sub-reinforcement learning models.
 
 ### Notes
 
-1. **Modified Crafter Environment**:  
+1. Modified Crafter Environment:  
    This project uses a modified version of the Crafter environment that may not be compatible with the standard version installed via `pip`. It is recommended to create a new virtual environment and install dependencies using:
 ```bash
 pip install -r requirements.txt
@@ -88,19 +88,19 @@ This project implements `get_stone_pickaxe` in `prolog_run.pl`, demonstrating hi
 
 1. **Start the Python Socket Server**  
    Open a terminal and run:
-   ```bash
-   python scpl_server.py
-   ```
+```bash
+python scpl_server.py
+```
 2. **Launch Prolog Client**
   Open another terminal and start Scryer Prolog with the run script:
-  ```bash
-   scryer-prolog prolog_run.pl
-   ```
+```bash
+scryer-prolog prolog_run.pl
+```
 3. **Execute the Query**
    In the Prolog interpreter, run:
-   ```bash
-   ?- run("MyCrafter-v0").
-   ```
+```bash
+?- run("MyCrafter-v0").
+```
 #### Expected Output
 Success:If the agent completes the stone pickaxe acquisition task, the query will return containing `true`.
 
